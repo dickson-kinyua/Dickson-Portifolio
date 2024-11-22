@@ -8,8 +8,8 @@ export const Header = () => {
     <div className="flex flex-col gap-5   bg-orange-500">
       <div className="flex flex-row justify-between items-center bg-white text-orange-600 p-4 fixed top-0 right-0 left-0">
         <div>
-          <Link to={"/"} className="font-bold text-2xl">
-            MERN Stack Developer
+          <Link to={"/"} className="font-bold text-xl md:text-2xl">
+            MERN Stack
           </Link>
         </div>
         <FontAwesomeIcon icon={faBars} className="md:hidden" />

@@ -806,6 +806,10 @@ video {
     width: 100%;
   }
 
+  .md\:grid-cols-8 {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+  }
+
   .md\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;

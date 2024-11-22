@@ -4,7 +4,7 @@ export const Skills = () => {
       <div>
         <h3 className="text-3xl font-bold">Skills</h3>
       </div>
-      <div className="grid grid-cols-8 gap-6">
+      <div className="grid grid-cols-4 md:grid-cols-8 gap-6">
         <div>HTML 5</div>
         <div>CSS 3</div>
         <div>Javascript</div>
