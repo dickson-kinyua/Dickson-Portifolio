@@ -1,8 +1,9 @@
 export const About = () => {
   return (
-    <div className="mt-32 flex flex-col gap-5">
-      {/* <p className="font-bold text-3xl text-orange-800">Introduction</p> */}
-      <p className="font-bold text-3xl text-orange-800">Overview</p>
+    <div id="about" className="mt-28 md:mt-32 flex flex-col gap-5">
+      <div className="flex flex-col items-center bg-gray-200 py-10">
+        <p className="text-3xl text-gray-700">Overview</p>
+      </div>
 
       <div>
         <p className="w-full">

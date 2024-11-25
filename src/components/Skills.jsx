@@ -1,8 +1,8 @@
 export const Skills = () => {
   return (
-    <div className="mt-32 flex flex-col gap-14">
-      <div>
-        <h3 className="text-3xl font-bold text-orange-800">Skills</h3>
+    <div id="skills" className="mt-32 flex flex-col gap-14">
+      <div className="flex flex-col items-center bg-gray-200 py-10">
+        <h3 className="text-3xl text-gray-700">Skills</h3>
       </div>
       <div className="grid grid-cols-3 gap-5 md:grid-cols-8 md:gap-8">
         <div>

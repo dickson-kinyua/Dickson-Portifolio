@@ -1,18 +1,18 @@
 export const Experience = () => {
   return (
     <div className="mt-32 flex flex-col gap-10">
-      <div>
-        <h3 className="text-3xl font-bold text-orange-800">Experience</h3>
+      <div className="flex flex-col items-center bg-gray-200 py-10">
+        <h3 className="text-3xl text-gray-700">Experience</h3>
       </div>
       <div className="flex flex-col gap-14">
         <div className="flex flex-col gap-4 items-center md:flex-row md:gap-20">
           <div>
             <p>Jan 2024 todate</p>
           </div>
-          <div className="flex flex-col gap-4 border-r-2 border-solid  border-gray-200 pr-4 bg-orange-700 p-2 text-white">
+          <div className="flex flex-col gap-4 border-r-2 border-solid  border-gray-200 pr-4 bg-orange-700 p-5 text-white">
             <h4 className="text-xl font-semibold">Frontend Development</h4>
             <p>React.js,Tailwindcss</p>
-            <ul>
+            <ul className="list-disc">
               <li>
                 Advanced skills in React.js for building dynamic web
                 applications.
@@ -30,10 +30,10 @@ export const Experience = () => {
           <div>
             <p>Jan 2024 todate</p>
           </div>
-          <div className="flex flex-col  gap-4 bg-orange-700 text-white p-2">
+          <div className="flex flex-col  gap-4 bg-orange-700 text-white p-5">
             <h3 className="text-xl font-bold">UI Designing</h3>
             <p>Material UI,Tailwindcss,SCSS</p>
-            <ul className="flex flex-col">
+            <ul className="list-disc">
               <li>
                 Proficient in Material UI for creating modern and responsive
                 user interfaces.
@@ -58,11 +58,11 @@ export const Experience = () => {
           <div>
             <p>Jan 2024 todate</p>
           </div>
-          <div className="flex flex-col gap-4 bg-orange-700 p-2 text-white">
+          <div className="flex flex-col gap-4 bg-orange-700 p-5 text-white">
             <h4 className="text-xl font-semibold">Backend Development</h4>
             <p>Node js,Express js,Mongoose,Postman</p>
 
-            <ul>
+            <ul className="list-disc">
               <li>
                 Proficient in Node.js for building robust and scalable
                 server-side applications.
@@ -94,9 +94,6 @@ export const Experience = () => {
             </ul>
           </div>
         </div>
-        <div></div>
-        <div></div>
-        <div></div>
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 export const Contact = () => {
   return (
-    <div className="mt-10 bg-gray-100">
+    <div id="contact" className="mt-14 bg-gray-100">
       <h4 className="mb-5 text-orange-800">Get In Touch</h4>
       <form className="flex flex-col ">
         <label id="name">Your name :</label>

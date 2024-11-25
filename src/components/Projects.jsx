@@ -1,7 +1,7 @@
 export const Projects = () => {
   return (
-    <div className="mt-3">
-      <h3 className="text-orange-800">Projects</h3>
+    <div className="flex flex-col items-center bg-gray-200 py-10 mt-10">
+      <h3 className="text-gray-700">Projects</h3>
     </div>
   );
 };
