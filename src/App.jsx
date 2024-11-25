@@ -12,7 +12,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <Router>
-      <div className="bg-white  text-gray-700">
+      <div className="bg-bgd  text-gray-500">
         <Header />
         <div className="px-6">
           <About />

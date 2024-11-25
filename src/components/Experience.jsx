@@ -9,7 +9,7 @@ export const Experience = () => {
           <div>
             <p>Jan 2024 todate</p>
           </div>
-          <div className="flex flex-col gap-4 border-r-2 border-solid  border-gray-200 pr-4 bg-orange-700 p-5 text-white">
+          <div className="flex flex-col gap-4 border-r-2 border-solid  border-gray-200 pr-4 bg-main p-5 text-white">
             <h4 className="text-xl font-semibold">Frontend Development</h4>
             <p>React.js,Tailwindcss</p>
             <ul className="list-disc">
@@ -30,7 +30,7 @@ export const Experience = () => {
           <div>
             <p>Jan 2024 todate</p>
           </div>
-          <div className="flex flex-col  gap-4 bg-orange-700 text-white p-5">
+          <div className="flex flex-col  gap-4 bg-main text-white p-5">
             <h3 className="text-xl font-bold">UI Designing</h3>
             <p>Material UI,Tailwindcss,SCSS</p>
             <ul className="list-disc">
@@ -58,7 +58,7 @@ export const Experience = () => {
           <div>
             <p>Jan 2024 todate</p>
           </div>
-          <div className="flex flex-col gap-4 bg-orange-700 p-5 text-white">
+          <div className="flex flex-col gap-4 bg-main p-5 text-white">
             <h4 className="text-xl font-semibold">Backend Development</h4>
             <p>Node js,Express js,Mongoose,Postman</p>
 

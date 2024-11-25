@@ -16,32 +16,33 @@ export const Header = () => {
   };
 
   return (
-    <div className="flex flex-col gap-5   bg-orange-800">
-      <div className="flex flex-row justify-between items-center bg-white text-orange-600 p-4 fixed top-0 right-0 left-0">
+    <div className="flex flex-col gap-5 bg-main min-h-52 md:min-h-96">
+      <div className="border-t-8 border-main flex flex-row justify-between items-center bg-slate-100 text-gray-700 mx-5 p-4 fixed top-0 right-0 left-0">
         <div>
           <Link to={"/"} className="font-bold text-xl md:text-2xl">
-            MERN Stack
+            <span className="text-main">M</span>ERN{" "}
+            <span className="text-main">S</span>tack
           </Link>
         </div>
         <FontAwesomeIcon
           icon={faBars}
-          className="md:hidden"
+          className="md:hidden text-main text-xl"
           onClick={toggleClass}
         />
         <div className="hidden md:flex flex-row gap-4">
-          <Link to={"#"} className="font-semibold text-xl">
+          <Link to={"#"} className="text-xl hover:text-main">
             About
           </Link>
-          <Link to={"#"} className="font-semibold text-xl">
+          <Link to={"#"} className="text-xl hover:text-main">
             Skills
           </Link>
-          <Link to={"#"} className="font-semibold text-xl">
+          <Link to={"#"} className="text-xl hover:text-main">
             Experience
           </Link>
-          <Link to={"#"} className="font-semibold text-xl">
+          <Link to={"#"} className="text-xl hover:text-main">
             Work
           </Link>
-          <Link to={"#"} className="font-semibold text-xl">
+          <Link to={"#"} className="text-xl hover:text-main">
             Contact
           </Link>
         </div>

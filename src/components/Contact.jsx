@@ -12,7 +12,7 @@ export const Contact = () => {
           className="border-b-2 border-gray-900"
           id="message"
         ></textarea>
-        <button className="bg-orange-800 mt-8 text-white" type="submit">
+        <button className="bg-main mt-8 text-white" type="submit">
           Send message
         </button>
       </form>
