@@ -2,10 +2,13 @@ export const Experience = () => {
   return (
     <div className="mt-32 flex flex-col gap-10">
       <div>
-        <h3 className="text-3xl font-bold">Experience</h3>
+        <h3 className="text-3xl font-bold text-orange-800">Experience</h3>
       </div>
       <div className="flex flex-col gap-14">
-        <div className="flex flex-row gap-20">
+        <div className="flex flex-col gap-4 items-center md:flex-row md:gap-20">
+          <div>
+            <p>Jan 2024 todate</p>
+          </div>
           <div className="flex flex-col gap-4 border-r-2 border-solid  border-gray-200 pr-4 bg-orange-700 p-2 text-white">
             <h4 className="text-xl font-semibold">Frontend Development</h4>
             <p>React.js,Tailwindcss</p>
@@ -22,18 +25,15 @@ export const Experience = () => {
               </li>
             </ul>
           </div>
-          <div>
-            <p>Jan 2024 todate</p>
-          </div>
         </div>
-        <div className="flex flex-row justify-between">
+        <div className="flex flex-col gap-5 items-center md:flex-row md:gap-20 ">
           <div>
             <p>Jan 2024 todate</p>
           </div>
-          <div className="flex flex-col items-center gap-4 bg-orange-700 text-white">
-            <h3 className="text-3xl font-bold">UI Designing</h3>
+          <div className="flex flex-col  gap-4 bg-orange-700 text-white p-2">
+            <h3 className="text-xl font-bold">UI Designing</h3>
             <p>Material UI,Tailwindcss,SCSS</p>
-            <ul className="flex flex-col w-1/2">
+            <ul className="flex flex-col">
               <li>
                 Proficient in Material UI for creating modern and responsive
                 user interfaces.
@@ -54,7 +54,10 @@ export const Experience = () => {
             </ul>
           </div>
         </div>
-        <div className="flex flex-row justify-between">
+        <div className="flex flex-col gap-5 items-center md:flex-row md:gap-20">
+          <div>
+            <p>Jan 2024 todate</p>
+          </div>
           <div className="flex flex-col gap-4 bg-orange-700 p-2 text-white">
             <h4 className="text-xl font-semibold">Backend Development</h4>
             <p>Node js,Express js,Mongoose,Postman</p>
@@ -89,9 +92,6 @@ export const Experience = () => {
                 optimization.
               </li>
             </ul>
-          </div>
-          <div>
-            <p>Jan 2024 todate</p>
           </div>
         </div>
         <div></div>

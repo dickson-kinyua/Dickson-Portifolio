@@ -1,7 +1,7 @@
 export const Projects = () => {
   return (
-    <div>
-      <h3>Projects</h3>
+    <div className="mt-3">
+      <h3 className="text-orange-800">Projects</h3>
     </div>
   );
 };

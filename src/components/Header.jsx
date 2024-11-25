@@ -5,7 +5,7 @@ import { Introduction } from "../components/Introduction";
 
 export const Header = () => {
   return (
-    <div className="flex flex-col gap-5   bg-orange-500">
+    <div className="flex flex-col gap-5   bg-orange-800">
       <div className="flex flex-row justify-between items-center bg-white text-orange-600 p-4 fixed top-0 right-0 left-0">
         <div>
           <Link to={"/"} className="font-bold text-xl md:text-2xl">

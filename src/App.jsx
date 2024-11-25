@@ -1,4 +1,5 @@
 import { About } from "./components/About";
+import { Contact } from "./components/Contact";
 import { Experience } from "./components/Experience";
 import { Header } from "./components/Header";
 // import { Introduction } from "./components/Introduction";
@@ -19,6 +20,7 @@ function App() {
           <Tools />
           <Experience />
           <Projects />
+          <Contact />
         </div>
       </div>
     </Router>
